@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    package="com.example.lenovo.projectnetcamp"
+    platformBuildVersionCode="24"
+    platformBuildVersionName="7.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <application
+        android:theme="@ref/0x7f09008e"
+        android:label="@ref/0x7f070020"
+        android:icon="@ref/0x7f030000"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.MainActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Second" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Third" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Fourth" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Fifth" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Sixth" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Seventh" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Eigth" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Nine" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Tenth" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Eleventh" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Twelth" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Thirteen" />
+
+        <activity
+            android:name="com.example.lenovo.projectnetcamp.Fourteen" />
+    </application>
+</manifest>
